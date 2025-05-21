@@ -37,5 +37,3 @@ if uploaded_file is not None:
         st.error("Cannot extract MFCCs features.")
 
     os.remove("temp.wav")
-
-st.write("Python executable:", sys.executable)
